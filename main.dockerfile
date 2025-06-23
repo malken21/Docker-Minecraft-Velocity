@@ -2,7 +2,7 @@ FROM python:latest AS downloader-velocity
 
 COPY updateVelocity.py updateVelocity.py
 
-RUN "python3 updateVelocity.py ./velocity.jar"
+RUN python3 updateVelocity.py ./velocity.jar
 
 FROM gcr.io/distroless/java21-debian12
 
