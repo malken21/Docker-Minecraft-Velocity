@@ -1,4 +1,4 @@
-name: Release ResourcePack
+name: Release
 on:
   push:
     tags:
